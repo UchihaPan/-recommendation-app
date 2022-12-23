@@ -1,5 +1,5 @@
-import './App.css';
-import React, { useState } from "react";
+import './App.css'   
+import React, { useState } from "react"   
 
 const MoviesDB = {
   action: [
@@ -27,14 +27,14 @@ const MoviesDB = {
       rating:"7.8/10"
     }
   ]
-};
+}   
 
 
 function App() {
   const textalign="center"
-  const [selectedGenre, setGenre] = useState("action");
+  const [selectedGenre, setGenre] = useState("action")   
   function genreClickHandler(genre) {
-    setGenre(genre);
+    setGenre(genre)   
   }
   return (
     <div className="App">
@@ -84,7 +84,7 @@ function App() {
         </ul>
       </div>
     </div>
-  );
+  )   
 }
 
-export default App;
+export default App   
